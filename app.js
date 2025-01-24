@@ -68,7 +68,7 @@ function sortearAmigo(){
         //Impresion de amigo seceto
         //console.log(numeroAleatorio);
         //console.log(`El nombre sorteado es: ${friendsNames[numeroAleatorio]}`);
-        document.getElementById(idListName).innerHTML = friendsNames[numeroAleatorio];
+        document.getElementById(idListName).innerHTML = `El amigo secreto es: ${friendsNames[numeroAleatorio]}`;
     }else{
         alert("Ingrese al menos el nombre de un amigo");
     }
